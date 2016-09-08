@@ -63,5 +63,5 @@
 set :stage, :production
 set :rails_env, :production
 
-server 'ec2-54-218-196-103.us-west-2.compute.amazonaws.com', user: 'ubuntu', roles: w{app db web}
+server 'ec2-54-218-196-103.us-west-2.compute.amazonaws.com', user: 'ubuntu', roles: %w{app db web}
 

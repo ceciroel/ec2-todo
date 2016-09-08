@@ -6,7 +6,7 @@ set :rvm_ruby_version, '2.3.0'
  
 set :user, 'ubuntu'
 set :application, 'todoapp'
-set :deploy_to, "/home/#{fetch(:user)}/apps/#{fetch(:application)}/releases"
+set :deploy_to, "/home/#{fetch(:user)}/apps/#{fetch(:application)}"
 set :repo_url, 'git@github.com:ijpe/ec2-todo.git'
 set :branch, :master
 set :keep_releases, 5
